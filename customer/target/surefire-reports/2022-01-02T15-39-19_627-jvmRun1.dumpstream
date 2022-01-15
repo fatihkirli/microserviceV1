@@ -1,0 +1,105 @@
+# Created at 2022-01-02T15:39:27.366
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-01-02T15:39:27.971
+Unexpected IOException with stream: 2022-01-02 15:39:27.971  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+
+
+# Created at 2022-01-02T15:39:30.255
+Unexpected IOException with stream: 2022-01-02 15:39:30.255  WARN [CUSTOMER-SERVICE,,] 588 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+
+
+# Created at 2022-01-02T15:39:30.907
+Unexpected IOException with stream: 2022-01-02 15:39:30.907  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+
+
+# Created at 2022-01-02T15:39:31.156
+Unexpected IOException with stream: 2022-01-02 15:39:31.156  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+
+
+# Created at 2022-01-02T15:39:31.188
+Unexpected IOException with stream: 2022-01-02 15:39:31.188  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+
+
+# Created at 2022-01-02T15:39:31.234
+Unexpected IOException with stream: 2022-01-02 15:39:31.219  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+
+
+# Created at 2022-01-02T15:39:31.234
+Unexpected IOException with stream: 2022-01-02 15:39:31.234  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+
+
+# Created at 2022-01-02T15:39:31.234
+Unexpected IOException with stream: 2022-01-02 15:39:31.234  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+
+
+# Created at 2022-01-02T15:39:31.234
+Unexpected IOException with stream: 2022-01-02 15:39:31.234  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+
+
+# Created at 2022-01-02T15:39:31.234
+Unexpected IOException with stream: 2022-01-02 15:39:31.234  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+
+
+# Created at 2022-01-02T15:39:31.234
+Unexpected IOException with stream: 2022-01-02 15:39:31.234  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+
+
+# Created at 2022-01-02T15:39:31.234
+Unexpected IOException with stream: 2022-01-02 15:39:31.234  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+
+
+# Created at 2022-01-02T15:39:31.531
+Unexpected IOException with stream: 2022-01-02 15:39:31.531  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+
+
+# Created at 2022-01-02T15:39:31.531
+Unexpected IOException with stream: 2022-01-02 15:39:31.531  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+
+
+# Created at 2022-01-02T15:39:31.531
+Unexpected IOException with stream: 2022-01-02 15:39:31.531  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+
+
+# Created at 2022-01-02T15:39:31.547
+Unexpected IOException with stream: 2022-01-02 15:39:31.547  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1641127171547 with initial instances count: 3
+
+
+# Created at 2022-01-02T15:39:31.563
+Unexpected IOException with stream: 2022-01-02 15:39:31.563  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application CUSTOMER-SERVICE with eureka with status UP
+
+
+# Created at 2022-01-02T15:39:31.563
+Unexpected IOException with stream: 2022-01-02 15:39:31.563  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1641127171563, current=UP, previous=STARTING]
+
+
+# Created at 2022-01-02T15:39:31.563
+Unexpected IOException with stream: 2022-01-02 15:39:31.563  INFO [CUSTOMER-SERVICE,,] 588 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER-SERVICE/KSN70005302.ksnet.local:CUSTOMER-SERVICE:9001: registering service...
+
+
+# Created at 2022-01-02T15:39:31.578
+Unexpected IOException with stream: 2022-01-02 15:39:31.578  INFO [CUSTOMER-SERVICE,,] 588 --- [           main] c.e.customer.CustomerApplicationTests    : Started CustomerApplicationTests in 10.105 seconds (JVM running for 10.898)
+
+
+# Created at 2022-01-02T15:39:31.612
+Unexpected IOException: 5,1,com.example.customer.CustomerApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2022-01-02T15:39:31.612
+Unexpected IOException with stream: 2022-01-02 15:39:31.612  INFO [CUSTOMER-SERVICE,,] 588 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_CUSTOMER-SERVICE/KSN70005302.ksnet.local:CUSTOMER-SERVICE:9001 - registration status: 204
+
+
+# Created at 2022-01-02T15:39:31.729
+Unexpected IOException: 6,1,com.example.customer.CustomerApplicationTests,contextLoads,null,null,null
+
+
+# Created at 2022-01-02T15:39:31.729
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.example.customer.CustomerApplicationTests,null,null,null
+
+
